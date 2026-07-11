@@ -1,0 +1,78 @@
+::selection {
+    color: rgb(50, 160, 230);
+    background: rgb(255, 255, 255);
+}
+
+.text{
+    background-color: #c0e8f4;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 1px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #054ef8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    transition-duration: 0.2s;
+}
+  
+.button:hover {
+    background-color: #49cb07;
+    border-radius: 15px;
+}
+  
+.button:active {
+    padding: 1px 10px;
+    background-color: #49cb07;
+    border-radius: 15px;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(25, 140, 240);
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a:active {
+    color: rgb(40, 120, 2);
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.move {
+  cursor: move;
+}
+
+.help {
+  cursor: help;
+}
+
+.cross {
+  cursor: crosshair;
+}
+
+.wait {
+  cursor: wait;
+}
